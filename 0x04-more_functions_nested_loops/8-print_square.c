@@ -2,7 +2,7 @@
 
 /**
  * print_square - Prints n squares according n number of times
- * @n: The number of squares/number of times
+ * @size: The number of squares/number of times
  * Return: empty
  */
 
