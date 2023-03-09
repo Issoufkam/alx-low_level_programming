@@ -2,7 +2,7 @@
 
 /**
  * _puts_recursion - Print string
- * @c: the string to print
+ * @s: the string to print
  * Return: Nothing
  */
 
@@ -15,6 +15,5 @@ int _puts_recursion(char *s)
 	}
 
 	_putchar(*s);
-	s++;
-	_puts_recursion;
+	_puts_recursion(s + 1);
 }
