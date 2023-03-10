@@ -1,1 +1,1 @@
-This is the project of programming C
+0x09. C - Static libraries
