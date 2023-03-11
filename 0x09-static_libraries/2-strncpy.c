@@ -5,14 +5,14 @@
 #include <stdlib.h>
 
 /**
- * _strcpy - Print the letters
+ * _strncpy - Print the letters
  * @dest: The characters
  * @src: The second value
  * @n: The value
  * Return: Nothing
  */
 
-char _strcpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	return (strncpy(dest, src, n));
 }

@@ -5,12 +5,12 @@
 #include <stdlib.h>
 
 /**
- * _atoi - Print the letters
+ * _strchr - Print the letters
  * @s: The characters
+ * @c: The second value
  * Return: Nothing
  */
-
-int _atoi(char *s)
+char *_strchr(char *s, char c)
 {
-	return (atoi(s));
+	return (strchr(s, c));
 }

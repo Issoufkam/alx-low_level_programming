@@ -5,12 +5,13 @@
 #include <stdlib.h>
 
 /**
- * _atoi - Print the letters
+ * _strspn - Print the letters
  * @s: The characters
+ * @accept: The second value
  * Return: Nothing
  */
 
-int _atoi(char *s)
+unsigned int _strspn(char *s, char *accept)
 {
-	return (atoi(s));
+	return (strspn(s, accept));
 }

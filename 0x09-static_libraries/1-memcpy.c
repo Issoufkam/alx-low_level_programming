@@ -5,13 +5,15 @@
 #include <stdlib.h>
 
 /**
- * _strcat - Print the letters
+ * _memcpy - Print the letters
  * @dest: The characters
  * @src: The second value
+ * @n: The value
  * Return: Nothing
  */
 
-char *_strcat(char *dest, char *src)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	return (strcat(dest, src));
+	return (memcpy(dest, src, n));
 }
+

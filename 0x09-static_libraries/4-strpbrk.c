@@ -5,12 +5,13 @@
 #include <stdlib.h>
 
 /**
- * _atoi - Print the letters
+ * _strpbrk - Print the letters
  * @s: The characters
+ * @accept: The second value
  * Return: Nothing
  */
 
-int _atoi(char *s)
+char *_strpbrk(char *s, char *accept)
 {
-	return (atoi(s));
+	return (strpbrk(s, accept));
 }
